@@ -1,0 +1,35 @@
+@media print {
+    #top,
+    #header,
+    #mobile-menu,
+    #icon-name,
+    #list-prof,
+    #pankuzu,
+    .pnavi,
+    #update,
+    #order,
+    p.tl-text + p.tl-posted,
+    .del-tw,
+    p.tw-buttons,
+    p.p-link,
+    #ad-label2,
+    #ad-box2,
+    #ad-box2 + div,
+    #side,
+    #footer {
+        display: none;
+    }
+    #contents {
+        display: block;
+    }
+    #main {
+        display: block;
+        width: auto;
+    }
+    div.tl-tweets {
+        width: auto;
+    }
+    p.tl-text {
+        width: 220mm;
+    }
+}
